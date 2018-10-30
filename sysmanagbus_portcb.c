@@ -20,51 +20,6 @@
  *				 SMB_PIC16F914_SUPPORT	- Support SMB interface of PIC16F914
  *               MEN_EP02      - to provide additional routines for the EP02
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: sysmanagbus_portcb.c,v $
- * Revision 1.13  2008/06/18 16:39:39  AWanka
- * R: Outputs wasn't correct
- * M: Deleted outputs
- *
- * Revision 1.12  2007/09/20 16:58:50  ufranke
- * added
- *  - switch MEN_EP02
- *
- * Revision 1.11  2007/07/25 09:31:17  JWu
- * ign
- *
- * Revision 1.10  2007/07/09 10:18:57  JWu
- * changed argument type of smbWriteAddrByte()
- *
- * Revision 1.9 20.06.2007 09:41	jwu
- * +: routines for devices with 16-bit address
- *
- * Revision 1.8  2006/10/25 15:57:45  rla
- * Added Support for 16F914 PIC SMB
- *
- * Revision 1.7  2005/06/23 16:11:56  kp
- * Copyright line changed (sbo)
- *
- * Revision 1.6  2005/02/15 12:53:35  rlange
- * adapted for max. 100 kHz busclock
- *
- * Revision 1.5  2003/06/05 15:28:54  UFranke
- * changed
- *  - removed DIAB compiler warnings
- *
- * Revision 1.4  2001/07/09 16:43:17  kp
- * added smbWriteReadTwoByte (rla)
- *
- * Revision 1.3  2001/02/08 13:54:13  kp
- * added SetBucClock (SMS24/B11)
- *
- * Revision 1.2  2001/01/23 11:38:34  kp
- * bug fix: Bad parameters passed to sdaIn()
- *
- * Revision 1.1  2000/12/01 13:34:07  kp
- * Initial Revision
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1998 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/
