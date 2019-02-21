@@ -21,7 +21,7 @@
  *               MEN_EP02      - to provide additional routines for the EP02
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify
