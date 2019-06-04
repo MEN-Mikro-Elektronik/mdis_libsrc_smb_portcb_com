@@ -4,8 +4,6 @@
  *      Project: SMB library
  *
  *       Author: kp
- *        $Date: 2008/06/18 16:39:39 $
- *    $Revision: 1.13 $
  *
  *  Description: system managment bus driver for a port
  *				 same as sysmanagbus_port but using callbacks to write/read
@@ -44,6 +42,8 @@
 
 #define SMB_COMPILE
 #include <MEN/sysmanagbus.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*-----------------------------------------+
 |  TYPEDEFS                                |
@@ -1220,7 +1220,7 @@ CLEANUP:
  ****************************************************************************/
 static char *smbIdent( void )
 {
-    return( "SMB - SMB library: $Id: sysmanagbus_portcb.c,v 1.13 2008/06/18 16:39:39 AWanka Exp $" );
+    return( (char*) IdentString );
 }/*smbIdent*/
 
 
